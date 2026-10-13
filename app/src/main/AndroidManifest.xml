@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Asalaga"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Asalaga1">
+
+        <!-- Splash Launcher Screen -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth Screens -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:exported="false" />
+
+        <!-- Customer Screens -->
+        <activity
+            android:name=".ui.customer.CustomerMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.VenueDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.BookingActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Owner Screens -->
+        <activity
+            android:name=".ui.owner.OwnerMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.owner.OwnerCourtsActivity"
+            android:exported="false" />
+
+        <!-- Admin Screens -->
+        <activity
+            android:name=".ui.admin.AdminMainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

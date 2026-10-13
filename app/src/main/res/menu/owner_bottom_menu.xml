@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_owner_home"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_owner_venues"
+        android:icon="@drawable/ic_home"
+        android:title="My Venues" />
+    <item
+        android:id="@+id/nav_owner_bookings"
+        android:icon="@drawable/ic_booking"
+        android:title="Bookings" />
+</menu>

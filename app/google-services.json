@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "276231003225",
+    "firebase_url": "https://asalaga-fbeba-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "asalaga-fbeba",
+    "storage_bucket": "asalaga-fbeba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276231003225:android:b99cae9422609367afe548",
+        "android_client_info": {
+          "package_name": "com.example.asalaga1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XY-iLT5zCGoBvTn9FWJcs85oqQJc8Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

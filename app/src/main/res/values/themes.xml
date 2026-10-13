@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Light). -->
+    <style name="Theme.Asalaga1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_accent</item>
+        <item name="colorSecondaryVariant">@color/blue_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Force white/light backgrounds -->
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="android:colorBackground">@color/bg_light</item>
+        <item name="bottomNavigationStyle">@style/Widget.Asalaga.BottomNavigation</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.Asalaga.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/tab_color_selector</item>
+        <item name="itemTextColor">@color/tab_color_selector</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+</resources>
